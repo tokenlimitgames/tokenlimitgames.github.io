@@ -1,0 +1,2 @@
+# Authorized ad sellers for Token Limit Games apps.
+# The AdMob line (google.com, pub-..., DIRECT, f08c47fec0942fa0) goes here once the AdMob account exists.

@@ -4,37 +4,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Token Limit Games</title>
-  <meta name="description" content="Token Limit Games makes small Android games: Glitchling, a virtual pet written almost entirely by an over-confident AI, and Bubblodile, the classic water toy on your phone.">
-  <link rel="icon" href="/glitchling/icon.png">
-  <link rel="stylesheet" href="/style.css">
+  <meta name="description" content="Token Limit Games makes small, playful Android games: Glitchling, a virtual pet written almost entirely by an over-confident AI, and Bubblodile, the classic water toy on your phone.">
+  <meta name="theme-color" content="#12131b">
+  <link rel="icon" href="bubblodile/icon.png">
+  <link rel="stylesheet" href="home.css">
 </head>
 <body>
-  <main class="shell">
-    <p class="brand">Token Limit Games</p>
+  <main class="page">
+    <header class="studio">
+      <h1 class="wordmark">Token Limit Games<span class="dot">.</span></h1>
+      <p class="tagline">Small, playful games for Android, made by one human and a very confident AI in Lithuania.</p>
+    </header>
 
-    <img class="icon" src="/glitchling/icon.png" alt="The Glitchling egg icon">
-    <h1>Glitchling</h1>
-    <div class="lcd">
-      <p>Glitchling is a virtual pet written almost entirely by an over-confident AI, supervised by one tired human.</p>
-      <p>The AI insists there are no bugs, only features. We decided to believe it.</p>
-      <p>Keep your glitchling fed, clean and happy, and collect every feature it ships with. Any resemblance to working software is purely coincidental.</p>
-      <p class="center"><strong>Coming soon to Google Play.</strong> · <a href="/glitchling/privacy.html">Privacy policy</a></p>
-    </div>
+    <section class="games">
+      <article class="game glitchling">
+        <div class="cover">
+          <img class="icon" src="glitchling/icon.png" alt="The Glitchling egg icon">
+          <h2>Glitchling</h2>
+          <p class="pitch">The virtual pet with no bugs. Only features.</p>
+        </div>
+        <div class="body">
+          <p>Glitchling is a virtual pet written almost entirely by an over-confident AI, supervised by one tired human.</p>
+          <p>The AI insists there are no bugs, only features. We decided to believe it.</p>
+          <p>Keep your glitchling fed, clean and happy, and collect every feature it ships with. Any resemblance to working software is purely coincidental.</p>
+          <p class="links"><span class="badge">Coming soon to Google Play</span> <a href="glitchling/privacy.html">Privacy policy</a></p>
+        </div>
+      </article>
 
-    <img class="icon" src="/bubblodile/icon.png" alt="The Bubblodile icon: a grinning green creature in water" style="margin-top: 36px">
-    <h1>Bubblodile</h1>
-    <div class="lcd">
-      <p>Remember the water toy where you pumped a button and marbles floated up to a hungry mouth? Bubblodile puts it on your phone.</p>
-      <p>Pump the water, steer the marbles by tilting the phone, and feed all eight to the creature before it spits them back out. Shake it and everything swirls.</p>
-      <p>Beat your own records for the fastest time and the fewest pumps, then try the piranha, the frog, the octopus or the whale.</p>
-      <p class="center"><strong>Coming soon to Google Play.</strong> · <a href="/bubblodile/privacy.html">Privacy policy</a></p>
-    </div>
+      <article class="game bubblodile">
+        <div class="cover">
+          <img class="icon" src="bubblodile/icon.png" alt="The Bubblodile icon: a grinning green creature in water">
+          <h2>Bubblodile</h2>
+          <p class="pitch">Pump the water. Feed the creature!</p>
+          <div class="toys" aria-hidden="true">
+            <span style="background:#23894e"></span><span style="background:#c62828"></span><span style="background:#7440ae"></span><span style="background:#f5c518"></span><span style="background:#e0532d"></span>
+          </div>
+        </div>
+        <div class="body">
+          <p>Remember the water toy where you pumped a button and marbles floated up to a hungry mouth? Bubblodile puts it on your phone.</p>
+          <p>Pump the water, steer the marbles by tilting the phone, and feed all eight to the creature before it spits them back out. Shake it and everything swirls.</p>
+          <p>Beat your own records for the fastest time and the fewest pumps, then try the piranha, the frog, the octopus or the whale.</p>
+          <p class="links"><span class="badge">Coming soon to Google Play</span> <a href="bubblodile/privacy.html">Privacy policy</a></p>
+        </div>
+      </article>
+    </section>
 
     <footer>
-      <p>Privacy policies: <a href="/glitchling/privacy.html">Glitchling</a> · <a href="/bubblodile/privacy.html">Bubblodile</a></p>
       <p><a href="mailto:tokenlimitgames@gmail.com">tokenlimitgames@gmail.com</a></p>
       <p>Token Limit Games (Aleksandr Sandler), Lithuania</p>
-      <p>Title font: Titan One by Rodrigo Fuenzalida, <a href="/fonts/TitanOne-OFL.txt">SIL Open Font License 1.1</a></p>
+      <p>Fonts: Titan One by Rodrigo Fuenzalida (<a href="fonts/TitanOne-OFL.txt">OFL</a>) · Fredoka by Milena Brandão (<a href="bubblodile/Fredoka-OFL.txt">OFL</a>)</p>
     </footer>
   </main>
 </body>

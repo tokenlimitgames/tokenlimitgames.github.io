@@ -195,6 +195,36 @@ body {
 .bubblodile .body a { color: #2ab4ea; }
 .bubblodile .badge { background: #ffd233; color: #151b29; }
 
+/* Specimen Quota: the game's console, near-black navy, phosphor green, a dotted map. */
+.specimenquota .cover {
+  background:
+    radial-gradient(rgba(57, 255, 136, 0.14) 1.5px, transparent 1.6px) 0 0 / 16px 16px,
+    radial-gradient(80% 90% at 50% 0%, rgba(57, 255, 136, 0.16), transparent 70%),
+    #070b18;
+  border-bottom: 3px solid rgba(57, 255, 136, 0.5);
+}
+
+.specimenquota h2 {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.06em;
+  color: #39ff88;
+  text-shadow: 0 0 12px rgba(57, 255, 136, 0.45);
+}
+
+.specimenquota .pitch { color: #3fd8ff; font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; }
+
+.specimenquota .body {
+  background: #101830;
+  color: #cfeedd;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 15px;
+}
+
+.specimenquota .body a { color: #39ff88; }
+.specimenquota .badge { background: #39ff88; color: #070b18; }
+
 a { color: var(--link); text-underline-offset: 3px; }
 
 footer {

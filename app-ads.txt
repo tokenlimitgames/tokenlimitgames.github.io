@@ -1,2 +1,2 @@
-# Authorized ad sellers for Token Limit Games apps (Glitchling, Bubblodile).
+# Authorized ad sellers for Token Limit Games apps (Glitchling, Bubblodile, Specimen Quota).
 google.com, pub-6600479055727489, DIRECT, f08c47fec0942fa0

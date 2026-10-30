@@ -154,6 +154,7 @@ body {
 
 .glitchling .body a { color: #26301e; }
 .glitchling .badge { background: #26301e; color: #b9c7a2; }
+.glitchling .body a.badge { color: #b9c7a2; text-decoration: none; }
 
 /* Bubblodile: navy water, bubbles, toy colours, Fredoka. */
 .bubblodile .cover { background: linear-gradient(#2e3d5c, #151b29); }

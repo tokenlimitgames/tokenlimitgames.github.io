@@ -114,14 +114,18 @@ body {
 
 .game .body p { margin: 0 0 12px; }
 
-.game .links {
-  margin-top: auto;
-  padding-top: 8px;
+/* Store badge above the privacy link, centred, at the bottom of every card, so all three cards line up.
+   ".game .body .links" beats ".game .body p", whose margin would otherwise cancel the margin-top: auto. */
+.game .body .links {
+  margin: auto 0 0;
+  padding-top: 16px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 10px 14px;
+  gap: 10px;
 }
+/* Fixed line heights: the three cards use different fonts, which would otherwise shift the rows by a few px. */
+.game .body .links a { line-height: 24px; }
 
 .badge {
   display: inline-block;

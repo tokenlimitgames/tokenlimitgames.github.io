@@ -195,6 +195,7 @@ body {
 .bubblodile .body { background: #1b2335; color: #e6ecf6; }
 .bubblodile .body a { color: #2ab4ea; }
 .bubblodile .badge { background: #ffd233; color: #151b29; }
+.bubblodile .body a.badge { color: #151b29; text-decoration: none; }
 
 /* Specimen Quota: the game's console, near-black navy, phosphor green, a dotted map. */
 .specimenquota .cover {
@@ -225,6 +226,7 @@ body {
 
 .specimenquota .body a { color: #39ff88; }
 .specimenquota .badge { background: #39ff88; color: #070b18; }
+.specimenquota .body a.badge { color: #070b18; text-decoration: none; }
 
 a { color: var(--link); text-underline-offset: 3px; }
 
